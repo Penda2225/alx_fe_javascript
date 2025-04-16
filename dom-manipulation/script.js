@@ -160,7 +160,7 @@ function postQuoteToServer(quote) {
   fetch(API_URL, {
     method: "POST",
     body: JSON.stringify(quote),
-    headers: { "Content-type": "application/json" }
+    headers: { "Content-Type": "application/json" }
   }).then(res => res.json()).then(data => {
     console.log("Posted to server:", data);
   });
