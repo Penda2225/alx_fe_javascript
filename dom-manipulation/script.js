@@ -151,7 +151,7 @@ async function syncQuotes() {
   if (conflicts > 0) {
     saveQuotes();
     populateCategories();
-    notifySync(`${conflicts} quotes synced from server.`);
+    notifySync(`${conflicts} Quotes synced with server!`);
   }
 }
 
